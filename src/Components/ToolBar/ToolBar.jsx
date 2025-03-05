@@ -2,15 +2,14 @@ import { AboutTools } from "./AboutTools/AboutTools";
 import { Search } from "./Search/Search";
 import { AboutLogo } from "./AboutLogo/AboutLogo";
 import css from "./ToolBar.module.css";
+import { Link } from "react-router-dom";
 
 export const ToolBar = () => {
   return (
-    <div>
-      <div className={css.ToolBar}>
-        <AboutLogo />
-        <Search />
-        <AboutTools />
-      </div>
-    </div>
+    <Link to={"/"} className={css.ToolBar}>
+      <AboutLogo />
+      <Search />
+      <AboutTools />
+    </Link>
   );
 };

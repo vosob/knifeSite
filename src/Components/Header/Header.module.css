@@ -1,0 +1,37 @@
+.nav {
+  max-width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 170px;
+  padding-right: 170px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 60px;
+  background-color: #141414;
+}
+
+.navItem {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.personalAccount {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: auto;
+}
