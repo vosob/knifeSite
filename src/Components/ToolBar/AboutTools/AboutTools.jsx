@@ -1,3 +1,8 @@
+import { Locations } from "./Locations/Locations";
 export const AboutTools = () => {
-  return <div>1. 2. 3.</div>;
+  return (
+    <div>
+      <Locations />
+    </div>
+  );
 };
