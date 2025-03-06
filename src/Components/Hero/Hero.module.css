@@ -1,0 +1,9 @@
+.HeroContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/foni-papik-pro-wx11-p-kartinki-chernii-pryamougolnik-na-prozrach-1.png");
+  background-size: cover;
+  background-position: initial;
+  padding: 20px;
+  box-sizing: border-box;
+}
