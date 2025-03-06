@@ -1,0 +1,5 @@
+.AboutToolsContainer {
+  display: flex;
+  margin-left: 100px;
+  gap: 30px;
+}
