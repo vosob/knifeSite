@@ -1,0 +1,21 @@
+.toolbarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.toolText {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.toolWright {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(232, 170, 49);
+}
