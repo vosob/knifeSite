@@ -1,8 +1,18 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Scrollbar, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/scrollbar";
+
+import CatImg from "../../../public/img/swiper/cat.jpg";
+import Zsu from "../../../public/img/swiper/zsu.jpg";
+import Microtech from "../../../public/img/swiper/microtech.jpg";
+
 import css from "./Hero.module.css";
 export const Hero = () => {
   return (
     <div className={css.HeroContainer}>
-      <div>
+      <div className={css.heroLeft}>
         <h1 className={css.HeroMainText}>
           Інтернет-магазин сертифікованих златоустовських ножів
         </h1>
@@ -18,6 +28,29 @@ export const Hero = () => {
         </div>
       </div>
       {/* права сторона */}
+      <Swiper
+        loop={true}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        scrollbar={{
+          hide: true,
+          draggable: true,
+        }}
+        modules={[Scrollbar, Autoplay]}
+        className={css.mySwiper}
+      >
+        <SwiperSlide>
+          <img src={CatImg} alt="cat image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Zsu} alt="Zsu image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Microtech} alt="Microtech image" />
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 };

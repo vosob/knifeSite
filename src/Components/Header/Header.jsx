@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import css from "./Header.module.css";
 import { IoPersonOutline } from "react-icons/io5";
 import { ToolBar } from "../../Components/ToolBar/ToolBar";
+import { MegaMenu } from "../MegaMenu/MegaMenu";
 
 export const Header = () => {
   return (
@@ -27,6 +28,9 @@ export const Header = () => {
       </div>
       <div className="container">
         <ToolBar />
+      </div>
+      <div>
+        <MegaMenu />
       </div>
     </>
   );

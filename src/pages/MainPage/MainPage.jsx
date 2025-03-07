@@ -6,7 +6,7 @@ export const MainPage = () => {
     <>
       <div className={`container ${css.mainPageContainer}`}>
         <Hero />
-        <IconList />
+        {/* <IconList /> */}
       </div>
     </>
   );

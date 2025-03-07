@@ -47,3 +47,11 @@ button {
     padding-right: 80px;
   }
 }
+.swiper-scrollbar {
+  background: #dddddd; /* Світло-сірий фон */
+}
+
+/* Колір рухомої частини скролбару */
+.swiper-scrollbar-drag {
+  background: #a88beb; /* Лавандовий */
+}

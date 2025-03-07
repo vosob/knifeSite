@@ -1,0 +1,26 @@
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.links {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.links:hover {
+  color: #e8aa31;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
