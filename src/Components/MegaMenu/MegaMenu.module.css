@@ -2,25 +2,75 @@
   display: flex;
   justify-content: space-between;
   background-color: rgb(0, 0, 0);
-  padding-left: 170px;
-  padding-right: 170px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px 170px;
+  position: relative;
 }
 
 .links {
   color: rgb(255, 255, 255);
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 18px;
   font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
+  position: relative;
+  padding: 10px 15px;
 }
 
 .links:hover {
   color: #e8aa31;
   cursor: pointer;
   text-decoration: underline;
-  text-underline-offset: 20px;
+  text-underline-offset: 6px;
+}
+
+/* Контейнер для dropdown */
+.linkWrapper {
+  position: relative;
+}
+
+/* Основний стиль dropdown */
+.dropdown {
+  z-index: 1000;
+  position: absolute;
+  top: 100%; /* Вирівнюємо під посиланням */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1e1e1e;
+  color: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+}
+
+/* Робимо dropdown видимим при відкритті */
+.linkWrapper:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
+}
+
+/* Вміст dropdown */
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown ul li {
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dropdown ul li:last-child {
+  border-bottom: none;
+}
+
+.dropdown ul li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
