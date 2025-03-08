@@ -7,7 +7,7 @@ import { CiDiscount1 } from "react-icons/ci";
 const icons = [
   {
     icon: <IoCheckmarkCircleOutline />,
-    text: "Гарантія 100% повернення грошових коштів",
+    text: "Гарантія 100% повернення коштів",
   },
   {
     icon: <LiaTruckMovingSolid />,
@@ -15,7 +15,7 @@ const icons = [
   },
   {
     icon: <IoReorderThree />,
-    text: "Можливість оформлення замовлення без реєстрації",
+    text: "Оформлення без реєстрації",
   },
   {
     icon: <CiDiscount1 />,

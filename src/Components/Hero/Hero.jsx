@@ -4,9 +4,13 @@ import { Scrollbar, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/scrollbar";
 
-import CatImg from "../../../public/img/swiper/cat.jpg";
-import Zsu from "../../../public/img/swiper/zsu.jpg";
-import Microtech from "../../../public/img/swiper/microtech.jpg";
+// import CatImg from "../../../public/img/swiper/cat.jpg";
+// import Zsu from "../../../public/img/swiper/zsu.jpg";
+// import Microtech from "../../../public/img/swiper/microtech.jpg";
+
+import CatImg from "/img/swiper/cat.jpg";
+import Zsu from "/img/swiper/zsu.jpg";
+import Microtech from "/img/swiper/microtech.jpg";
 
 import css from "./Hero.module.css";
 export const Hero = () => {

@@ -7,7 +7,7 @@ export const AboutLogo = () => {
       <h1 className={css.logoText}>ZLATMAX</h1>
       <div className={css.logoContainer}>
         <span>ЗЛАУСТОВСЬКІ </span>
-        <img src="./public/img/Vector.png" alt="" />
+        <img src="/img/Vector.png" alt="" />
         <span>НОЖІ</span>
       </div>
     </Link>
