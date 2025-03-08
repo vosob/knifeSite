@@ -1,3 +1,4 @@
+import { Catalog } from "../../Components/Catalog/Catalog";
 import { IconList } from "../../Components/Hero/IconList/IconList";
 import { Hero } from "../../Components/Hero/Hero";
 import css from "./MainPage.module.css";
@@ -7,6 +8,7 @@ export const MainPage = () => {
       <div className={`container ${css.mainPageContainer}`}>
         <Hero />
         <IconList />
+        <Catalog />
       </div>
     </>
   );
