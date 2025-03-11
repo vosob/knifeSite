@@ -3,6 +3,7 @@ import { IconList } from "../../Components/Hero/IconList/IconList";
 import { Hero } from "../../Components/Hero/Hero";
 import css from "./MainPage.module.css";
 import { TopSales } from "../../Components/TopSales/TopSales";
+import { BackgroundForest } from "../../Components/BackgroundForest/BackgroundForest";
 export const MainPage = () => {
   return (
     <>
@@ -11,6 +12,7 @@ export const MainPage = () => {
         <IconList />
         <Catalog />
         <TopSales />
+        <BackgroundForest />
       </div>
     </>
   );

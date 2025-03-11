@@ -1,11 +1,99 @@
 .cardContainer {
+  display: "grid";
+  grid-template-columns: "repeat(4, 1fr)";
+  gap: 30;
   width: 375px;
   height: 600px;
-  background-color: tomato;
+  margin: 0 auto;
+  background-color: #f4f6f7;
+}
+
+.CardMain {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.WrightMain {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.CardComments {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #ababab;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.CardReview {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ReviewLogo {
+  color: #e8aa31;
+}
+
+.Number {
+  color: #ababab;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .spacer {
   width: 100%;
   height: 1px;
-  background-color: #e0e0e0;
+  margin-top: 25px;
+  background-color: #14141480;
+}
+
+.CardSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.CardMoney {
+  color: #141414;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.CardBtnContainer {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.CardButton {
+  background-color: #e8aa31;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 46px;
+  border: none;
 }
