@@ -45,8 +45,8 @@ export const Card = () => {
       </div>
       <div className={css.CardBtnContainer}>
         <button className={css.CardButton}>
-          В корзину
-          <CiShoppingCart />
+          <div>В корзину</div>
+          <CiShoppingCart size={25} />
         </button>
       </div>
     </div>

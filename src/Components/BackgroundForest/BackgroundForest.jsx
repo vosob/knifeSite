@@ -2,7 +2,9 @@ import { Card } from "../Card/Card";
 import css from "./BackgroundForest.module.css";
 export const BackgroundForest = () => {
   return (
-    <div className={css.container}>
+    // <div className={"container"}>
+
+    <div className={`container ${css.container}`}>
       <h1>Новинки</h1>
       <h3>
         Ласкаво просимо на офіційний сайт «ЗЛАТМАКС»! У нашому магазині
