@@ -4,6 +4,8 @@ import { Hero } from "../../Components/Hero/Hero";
 import css from "./MainPage.module.css";
 import { TopSales } from "../../Components/TopSales/TopSales";
 import { BackgroundForest } from "../../Components/BackgroundForest/BackgroundForest";
+import { Article } from "../../Components/Article/Article";
+
 export const MainPage = () => {
   return (
     <>
@@ -13,6 +15,7 @@ export const MainPage = () => {
         <Catalog />
         <TopSales />
         <BackgroundForest />
+        <Article />
       </div>
     </>
   );

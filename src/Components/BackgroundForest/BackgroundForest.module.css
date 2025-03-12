@@ -5,7 +5,7 @@
   min-width: 100%;
   height: 761px;
   display: flex;
-  flex-direction: column;
+
   background-image: url("/img/Background-Forest/Forest.png");
   background-size: cover; /* Ensures the image covers the entire screen */
   background-position: center; /* Centers the image */
@@ -13,7 +13,52 @@
   margin-top: 50px;
 }
 
+.MainText {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 5%;
+  text-align: left;
+}
+
+.Text {
+  width: 335px;
+  height: 245px;
+  padding-top: 30px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+
 .CardList {
   display: flex;
   gap: 30px;
+  margin-top: 55px;
+  margin-left: 65px;
+}
+
+.Transition {
+  display: flex;
+  align-items: center;
+}
+
+.TextTransition {
+  padding-top: 60px;
+  color: #e8aa31;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 5%;
+  text-align: left;
+}
+
+.Logo {
+  padding-top: 60px;
+  padding-left: 20px;
 }

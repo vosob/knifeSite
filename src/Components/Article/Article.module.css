@@ -1,0 +1,43 @@
+.articleContainer {
+  padding-top: 120px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+.wrightHead {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+}
+
+.articleHead {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.articlePicture {
+  width: 376px;
+  height: 200px;
+}
+
+.wrightDetail {
+  padding-top: 20px;
+  padding-left: 25px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+}
+
+.articleSchedule {
+  padding-top: 10px;
+  padding-left: 25px;
+  color: #ababab;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 34px;
+}
